@@ -1,0 +1,58 @@
+button,
+button:disabled {
+  background-color: #009edd;
+  color: white;
+  font-size: 12px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  outline: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: default;
+}
+
+input {
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 32px;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  margin-right: 24px;
+  border-radius: 2px;
+  outline-color: #009edd;
+  color: #003755;
+}
+
+.info-container {
+  background-color: #f0f7fa;
+  border-radius: 2px;
+  padding: 12px;
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+.info-title {
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+p {
+  margin: 0;
+  color: #003755;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.author-text {
+  margin-top: 12px;
+}
